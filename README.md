@@ -76,13 +76,19 @@ po KWLogHistoryWithObject(self)
 这里面的 self 是一个参数，我们可以通过参数去获取符合条件的日志，参数可以是字符串，也可以是其他类型，如果是字符串，就检测文件名或者调试打印自定义内容中包含字符串的日志，如果不是字符串，我们会默认你要输出与该类相关的日志。
 
 打印效果，如下：
+
 、、、
 2016-01-26 17:07:46.504 KWLogDemo[92492:2695591] 
 2016-01-25 14:41:57 +0000  ViewController.m  -[ViewController btnClickAction:]  60th  {number = 1, name = main}  this a log info 2016-01-25 14:41:57 +0000
+
 2016-01-25 14:41:58 +0000  ViewController.m  -[ViewController btnClickAction:]  72th  {number = 1, name = main}  another a log info 2016-01-25 14:41:58 +0000
+
 2016-01-25 14:41:59 +0000  ViewController.m  -[ViewController btnClickAction:]  75th  {number = 1, name = main}  another a log info 2016-01-25 14:41:59 +0000
+
 2016-01-25 14:42:01 +0000  ViewController.m  -[ViewController btnClickAction:]  69th  {number = 1, name = main}  another a log info 2016-01-25 14:42:01 +0000
+
 2016-01-26 09:02:45 +0000  ViewController.m  -[ViewController btnClickAction:]  75th  {number = 1, name = main}  another a log info 2016-01-26 09:02:45 +0000
+
 2016-01-26 09:03:02 +0000  ViewController.m  -[ViewController btnClickAction:]  60th  {number = 1, name = main}  this a log info 2016-01-26 09:03:02 +0000
 、、、
 
