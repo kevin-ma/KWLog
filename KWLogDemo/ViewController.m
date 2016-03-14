@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "KWLog.h"
+#import <Foundation/Foundation.h>
 
 @interface ViewController ()
 
@@ -78,7 +79,11 @@
             KWLogHistoryWithObject(@"another");
             break;
         case 7:
-            KWLogHistoryClear();
+        {
+            NSArray *arry = [NSArray arrayWithObject:@"sss"];
+            NSLog(@"%@",[arry objectAtIndex:1]);
+        }
+//            KWLogHistoryClear();
             break;
         default:
             break;

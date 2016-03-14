@@ -16,6 +16,7 @@
 		0A4D12741C5862FA00A9BB72 /* KWLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D126F1C5862FA00A9BB72 /* KWLog.m */; };
 		0A4D12751C5862FA00A9BB72 /* KWLogHistoryHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D12711C5862FA00A9BB72 /* KWLogHistoryHandle.m */; };
 		0A4D12761C5862FA00A9BB72 /* KWLogInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D12731C5862FA00A9BB72 /* KWLogInfo.m */; };
+		0A9EF2171C92961D00F164A5 /* KWCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9EF2161C92961D00F164A5 /* KWCrashHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		0A4D12711C5862FA00A9BB72 /* KWLogHistoryHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWLogHistoryHandle.m; sourceTree = "<group>"; };
 		0A4D12721C5862FA00A9BB72 /* KWLogInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWLogInfo.h; sourceTree = "<group>"; };
 		0A4D12731C5862FA00A9BB72 /* KWLogInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWLogInfo.m; sourceTree = "<group>"; };
+		0A9EF2151C92961D00F164A5 /* KWCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KWCrashHandler.h; sourceTree = "<group>"; };
+		0A9EF2161C92961D00F164A5 /* KWCrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KWCrashHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				0A4D126F1C5862FA00A9BB72 /* KWLog.m */,
 				0A4D12701C5862FA00A9BB72 /* KWLogHistoryHandle.h */,
 				0A4D12711C5862FA00A9BB72 /* KWLogHistoryHandle.m */,
+				0A9EF2151C92961D00F164A5 /* KWCrashHandler.h */,
+				0A9EF2161C92961D00F164A5 /* KWCrashHandler.m */,
 				0A4D12721C5862FA00A9BB72 /* KWLogInfo.h */,
 				0A4D12731C5862FA00A9BB72 /* KWLogInfo.m */,
 			);
@@ -174,6 +179,7 @@
 			files = (
 				0A4D12751C5862FA00A9BB72 /* KWLogHistoryHandle.m in Sources */,
 				0A4D124F1C56386400A9BB72 /* ViewController.m in Sources */,
+				0A9EF2171C92961D00F164A5 /* KWCrashHandler.m in Sources */,
 				0A4D12761C5862FA00A9BB72 /* KWLogInfo.m in Sources */,
 				0A4D124C1C56386400A9BB72 /* AppDelegate.m in Sources */,
 				0A4D12741C5862FA00A9BB72 /* KWLog.m in Sources */,
@@ -290,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KWLogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makaiwen.KWLogDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KWLogDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.makaiwen.KWLogDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
